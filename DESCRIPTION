@@ -1,0 +1,24 @@
+Package: Rosmium
+Type: Package
+Title: R Bindings for the Osmium Library
+Version: 0.1
+Date: 2016-04-11
+Author: Lukas Huwiler <lukas.huwiler@gmx.ch>
+Maintainer: Lukas Huwiler <lukas.huwiler@gmx.ch>
+Description: This package provides bindings for the Osmium Library (libosmium) and allows fast processing of OpenStreetMap files.
+  Supports the core features of Osmium, e.g. executing callback functions on each OSM object in a OSM file (xml or pbf),
+  writing OSM objects to a new file, generating geometry representation (wkb) out of OSM objects.
+  Provides a utility function for fast filtering on the C++ side 
+  (e.g. execute callbacks on objects within a certain radius of a given location).
+  The libosmium library is included in the package.
+  libosmium is licensed under the Boost Software License, while 'Rosmium' (the 'Rcpp' bindings to libosmium) 
+  is licensed under the GNU GPL version 2 or later. The parser for the object filter is licensed under the MIT License.  
+License: GPL (>= 2)
+Depends: Rcpp (>= 0.11.3)
+Imports: methods
+Suggests: wkb, sp, rgeos
+NeedsCompilation: yes
+RcppModules: Rosmium
+LinkingTo: Rcpp
+OS_type: unix
+SystemRequirements: gcc (>= 4.8) and the following libraries are required by the Osmium library: libz, pthread, libexpat and libbz2.

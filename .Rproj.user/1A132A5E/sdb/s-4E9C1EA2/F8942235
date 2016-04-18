@@ -1,0 +1,17 @@
+{
+    "contents" : "\\name{Rosmium-package}\n\\alias{Rosmium-package}\n\\alias{Rosmium}\n\\docType{package}\n\\title{\n\\packageTitle{Rosmium}\n}\n\\description{\n\\packageDescription{Rosmium}\n}\n\\details{\n\nThe DESCRIPTION file:\n\\packageDESCRIPTION{Rosmium}\n\\packageIndices{Rosmium}\n\n}\n\\author{\n\\packageAuthor{Rosmium}\n\nMaintainer: \\packageMaintainer{Rosmium}\n\n}\n\n\\references{\nSee \\url{http://osmcode.org/libosmium} for further information about Libosmium.\n}\n\n\\keyword{ package }\n\\seealso{\n}\n\\examples{\n\n}\n",
+    "created" : 1460409764423.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3659393836",
+    "id" : "F8942235",
+    "lastKnownWriteTime" : 1460409952,
+    "path" : "~/Arbeit/Rosmium/man/Rosmium-package.Rd",
+    "project_path" : "man/Rosmium-package.Rd",
+    "properties" : {
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "type" : "r_doc"
+}

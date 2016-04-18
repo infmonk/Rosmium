@@ -1,0 +1,4 @@
+## LIB_Z, LIB_EXPAT, LIB_BZ2 environment variables have to point to working library directories
+PKG_CPPFLAGS=-I$(LIB_Z)/include -I$(LIB_EXPAT)/include -I$(LIB_BZ2)/include -I../inst/include/ 
+PKG_LIBS=-L$(LIB_Z)/lib -L$(LIB_EXPAT)/lib -L$(LIB_BZ2)/lib -lz -lpthread -lexpat -lbz2
+CXX_STD=CXX11

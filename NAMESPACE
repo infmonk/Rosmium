@@ -1,0 +1,4 @@
+useDynLib(Rosmium)
+exportPattern("^[[:alpha:]]+")
+import(methods)
+importFrom(Rcpp, evalCpp)

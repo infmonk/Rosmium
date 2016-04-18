@@ -1,0 +1,7 @@
+all:
+	flex -o scanner.cpp scanner.l
+	bison -o parser.cpp parser.y
+
+clean:
+	rm -rf scanner.cpp
+	rm -rf parser.cpp parser.hpp location.hh position.hh stack.hh

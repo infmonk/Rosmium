@@ -1,0 +1,8 @@
+SOURCES=$(wildcard object_filter/*.cpp)
+OBJECTS=rcpp_module.o $(SOURCES:.cpp=.o)
+PKG_LIBS= -lz -lpthread -lexpat -lbz2
+CXX_STD= CXX11
+PKG_CPPFLAGS= -I../inst/include/ -L/usr/lib
+
+all: $(SHLIB)
+
