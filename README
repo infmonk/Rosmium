@@ -1,7 +1,11 @@
-Windows Installation
+The Rosmium package currently only runs on unix. However, it should be possible to install it on Windows. Below are some links which might be helpful:
+
+Windows Installation:
 http://stackoverflow.com/questions/26939683/linking-gsl-library-to-rcppgsl-on-windows-machine
 
 Static libraries can be found here:
 http://www.stats.ox.ac.uk/pub/Rtools/libs.html
 
 You need local320.zip and spatial320.zip
+
+Let me know when you managed to compile the package under Windows.
